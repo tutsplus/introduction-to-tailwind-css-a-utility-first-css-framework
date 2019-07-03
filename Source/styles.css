@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.demo-heading {
+    @apply text-brand uppercase text-sm font-bold font-display;
+}
+
+.muted {
+    @apply text-gray-600;
+}
+
+body {
+    @apply font-body;
+}
